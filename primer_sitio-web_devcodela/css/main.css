@@ -1,0 +1,204 @@
+/******* GENERAL *******/
+
+/* cuerpo */
+body {
+        background-color: #fff;
+        color: #999;
+        font-family: 'Open Sans',sans-serif;
+        }
+
+a{
+         text-decoration: none;
+}
+
+#wrapper {
+        margin: 0 auto;
+        max-width: 940px;
+        padding: 0 5%;
+}
+
+img {
+        max-width: 100%;
+}
+
+h3 {
+        margin: 0 0 1em 0;
+}
+
+/******* HEADING *******/
+#logo {
+        text-align: center;
+        margin: 0;
+}
+
+h1 {
+        font-family: 'Ubuntu', sans-serif
+        font-size: 1.7em;
+        font-weight: normal;
+        line-height: 0.8em;
+        margin: 15px 0;
+
+}
+
+h2{
+        font-size: 1em;
+        font-weight: bold;
+        margin: -5px 0 0;
+        }
+
+
+
+/******* PÁGINA PORTAFOLIO *******/
+
+#gallery {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+}
+
+#gallery li {
+        background-color: #f5f5f5;
+        color: #bdc3c7;
+        float: left;
+        margin: 2.5%;
+        width: 45%;
+}
+
+#gallery li a p {
+        color: #bdc3c7;
+        font-size: 0.75em;
+        margin:0;
+        padding: 5%;
+        text-align: center;
+}
+
+/******* PÁGINA ACERCA DE *******/
+.profile-photo{
+        border-radius: 25%;
+        display: block;
+        margin: 0 auto 30px;
+        max-width: 150px;
+}
+
+/******* PÁGINA CONTACTO *******/
+.contact-info{
+        font-size: 0.9em;
+        list-style: none;
+        margin: 0;
+        padding: 0;
+}
+
+.contact-info a{
+        background-repeat: no-repeat;
+        background-size: 20px 20px;
+        display: block;
+        margin: 0 0 10px;
+        min-height: 20px;
+        padding: 0 0 0 30px;
+}
+
+.contact-info li.phone a {
+        background-image: url('../img/phone.png');
+}
+
+.contact-info li.email a {
+        background-image: url('../img/mail.png');
+}
+
+.contact-info li.facebook a {
+        background-image: url('../img/facebook.png');
+}
+
+/* links */
+a {
+        color: #4db8ff;
+}
+
+/* encabezado */
+header {
+        background: #80ccff;
+        border-color:#599a68;
+        float: left;
+        margin: 0 0 30px 0;
+        padding: 5px 0 0 0;
+        width: 100%;
+
+
+}
+
+/* texto del logo */
+h1, h2 {
+        color: #fff;
+}
+
+/* navegacion */
+nav {
+        background: #33adff;
+        margin: 20px 0 0;
+        padding: 10px 0;
+        text-align: center;
+}
+
+nav ul {
+        list-style: none;
+        margin: 0 10px;
+        padding: 0;
+
+}
+
+nav ul li {
+        display: inline-block;
+}
+
+/* links de navegacion*/
+nav a {
+        font-weight: 800;
+        padding: 15px 10px;
+}
+
+nav a, nav a:visited {
+        color: white;
+
+}
+
+/* links seleccionados*/
+nav a.selected, a:hover {
+        color: #008ae6;
+
+}
+
+/******* FOOTER *******/
+footer{
+        clear: both;
+        color:#ccc;
+        font-size: 0.75em;
+        padding-top: 50px;
+        text-align: center;
+}
+
+.social-icon{
+        height: 20px;
+        margin: 0 5px;
+        width: 20px;
+}
+
+/**********************************
+CONTACT FORM
+***********************************/
+
+.form-control {
+  margin: 5px 0;
+}
+
+form textarea {
+  width: 20em;
+}
+
+.form-send {
+  background-color: #33adff;
+  border-radius: 2px;
+  border:none;
+  color: #fff;
+  height: 40px;
+  width: 70px;
+}
